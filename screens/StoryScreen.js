@@ -56,7 +56,7 @@ export default class StoryScreen extends Component {
               ></Image>
             </View>
             <View style={styles.appTitleTextContainer}>
-              <Text style={styles.appTitleText}>Storytelling App</Text>
+              <Text style={styles.appTitleText}>Aplicación para narrar historias</Text>
             </View>
           </View>
           <View style={styles.storyContainer}>
@@ -98,7 +98,7 @@ export default class StoryScreen extends Component {
               <View style={styles.actionContainer}>
                 <View style={styles.likeButton}>
                   <Ionicons name={"heart"} size={RFValue(30)} color={"white"} />
-                  <Text style={styles.likeText}>12k</Text>
+                  <Text style={styles.likeText}>12m</Text>
                 </View>
               </View>
             </ScrollView>
